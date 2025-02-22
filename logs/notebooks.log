@@ -4,3 +4,6 @@
 2025-02-23 01:49:03,769 - logger_script - INFO - Dataset loaded successfully.
 2025-02-23 02:10:11,403 - logger_script - INFO - Dataset loaded successfully.
 2025-02-23 02:10:42,080 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:11:46,335 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:12:22,225 - logger_script - INFO - Plotting pairwise relationships.
+2025-02-23 02:13:29,413 - logger_script - INFO - Plotting correlation heatmap.

@@ -1,3 +1,6 @@
 {
-    "ros.distro": "jazzy"
+    "ros.distro": "jazzy",
+    "python.analysis.extraPaths": [
+        "./scripts"
+    ]
 }

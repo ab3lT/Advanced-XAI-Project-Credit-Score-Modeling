@@ -7,6 +7,7 @@ This project aims to develop an explainable AI (XAI) model for credit score pred
 - **Credit Scoring Model**: Predicts the likelihood of borrower default.
 - **Explainability Integration**: Uses SHAP and LIME for local and global interpretability.
 - **Bias Mitigation**: Ensures fair lending practices through robust bias detection.
+- **RESTful API**: Deployable model with real-time scoring capabilities.
 
 ## Installation
 To set up the project, follow these steps:
@@ -19,28 +20,25 @@ cd Advanced-XAI-Project-Credit-Score-Modeling
 # Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 ## Usage
 ### Training the Model
 Run the following command to train the model:
 ```sh
-python train.py
+python load_data.py
 ```
 
 ### Evaluating the Model
 To evaluate model performance:
 ```sh
-python evaluate.py
+python logger_script.py
 ```
 
 ### Generating Explanations
 To generate SHAP and LIME-based explanations:
 ```sh
-python explain.py --input sample_data.json
+python model_explainer.py --input sample_data.json
 ```
 
 ## Explainability in Action

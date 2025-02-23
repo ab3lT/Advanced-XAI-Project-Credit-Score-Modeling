@@ -7,7 +7,6 @@ This project aims to develop an explainable AI (XAI) model for credit score pred
 - **Credit Scoring Model**: Predicts the likelihood of borrower default.
 - **Explainability Integration**: Uses SHAP and LIME for local and global interpretability.
 - **Bias Mitigation**: Ensures fair lending practices through robust bias detection.
-- **RESTful API**: Deployable model with real-time scoring capabilities.
 
 ## Installation
 To set up the project, follow these steps:
@@ -45,13 +44,6 @@ python model_explainer.py --input sample_data.json
 The project uses SHAP and LIME to interpret model decisions:
 - **SHAP (SHapley Additive exPlanations)** provides a breakdown of feature importance across predictions.
 - **LIME (Local Interpretable Model-agnostic Explanations)** generates local explanations for specific predictions.
-
-## Deployment
-To deploy the model as an API:
-```sh
-python app.py
-```
-The API will be available at `http://localhost:5000`.
 
 ## Ethical Considerations
 - Ensures compliance with **GDPR** and **ECOA** regulations.

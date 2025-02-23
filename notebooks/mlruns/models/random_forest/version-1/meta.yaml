@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1740318909705
+current_stage: None
+description: null
+last_updated_timestamp: 1740318909705
+name: random_forest
+run_id: e0092017b1cb41db96d2606a40eddaf1
+run_link: null
+source: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/e0092017b1cb41db96d2606a40eddaf1/artifacts/random_forest_model
+status: READY
+status_message: null
+storage_location: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/e0092017b1cb41db96d2606a40eddaf1/artifacts/random_forest_model
+user_id: null
+version: 1

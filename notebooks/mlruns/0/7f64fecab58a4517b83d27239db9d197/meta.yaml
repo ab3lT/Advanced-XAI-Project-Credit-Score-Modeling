@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/7f64fecab58a4517b83d27239db9d197/artifacts
+end_time: 1740319183990
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f64fecab58a4517b83d27239db9d197
+run_name: LSTM
+run_uuid: 7f64fecab58a4517b83d27239db9d197
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740319118554
+status: 3
+tags: []
+user_id: abel

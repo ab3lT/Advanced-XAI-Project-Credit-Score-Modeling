@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1740319183987
+current_stage: None
+description: null
+last_updated_timestamp: 1740319183987
+name: lstm
+run_id: 7f64fecab58a4517b83d27239db9d197
+run_link: null
+source: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/7f64fecab58a4517b83d27239db9d197/artifacts/lstm_model
+status: READY
+status_message: null
+storage_location: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/7f64fecab58a4517b83d27239db9d197/artifacts/lstm_model
+user_id: null
+version: 2

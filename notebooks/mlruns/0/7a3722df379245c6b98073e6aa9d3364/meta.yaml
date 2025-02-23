@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/7a3722df379245c6b98073e6aa9d3364/artifacts
+end_time: 1740318998141
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7a3722df379245c6b98073e6aa9d3364
+run_name: CNN
+run_uuid: 7a3722df379245c6b98073e6aa9d3364
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318974766
+status: 3
+tags: []
+user_id: abel

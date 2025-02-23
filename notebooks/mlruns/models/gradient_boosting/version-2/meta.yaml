@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1740319118544
+current_stage: None
+description: null
+last_updated_timestamp: 1740319118544
+name: gradient_boosting
+run_id: 1ebf6507b3174bd09997a9b9aa1badea
+run_link: null
+source: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/1ebf6507b3174bd09997a9b9aa1badea/artifacts/gradient_boosting_model
+status: READY
+status_message: null
+storage_location: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/1ebf6507b3174bd09997a9b9aa1badea/artifacts/gradient_boosting_model
+user_id: null
+version: 2

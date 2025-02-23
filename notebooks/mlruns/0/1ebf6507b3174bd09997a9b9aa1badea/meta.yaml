@@ -1,0 +1,15 @@
+artifact_uri: file:///home/abel/CODE/AAiT/AI/Advanced-XAI-Project-Credit-Score-Modeling/notebooks/mlruns/0/1ebf6507b3174bd09997a9b9aa1badea/artifacts
+end_time: 1740319118550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1ebf6507b3174bd09997a9b9aa1badea
+run_name: Gradient Boosting
+run_uuid: 1ebf6507b3174bd09997a9b9aa1badea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740319099519
+status: 3
+tags: []
+user_id: abel

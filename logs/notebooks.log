@@ -7,3 +7,35 @@
 2025-02-23 02:11:46,335 - logger_script - INFO - Plotting categorical count distributions.
 2025-02-23 02:12:22,225 - logger_script - INFO - Plotting pairwise relationships.
 2025-02-23 02:13:29,413 - logger_script - INFO - Plotting correlation heatmap.
+2025-02-23 02:27:38,149 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 02:27:38,799 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:27:43,320 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:28:18,995 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 02:28:18,995 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 02:28:19,640 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:28:19,640 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:28:23,317 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:28:23,317 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:32:49,797 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:32:49,797 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:35:49,933 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 02:35:49,933 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 02:35:49,933 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 02:35:50,490 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:35:50,490 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:35:50,490 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 02:35:53,910 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:35:53,910 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:35:53,910 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 02:40:49,180 - logger_script - INFO - Plotting boxplots for numerical features.
+2025-02-23 02:40:49,180 - logger_script - INFO - Plotting boxplots for numerical features.
+2025-02-23 02:40:49,180 - logger_script - INFO - Plotting boxplots for numerical features.
+2025-02-23 05:32:40,442 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:32:40,442 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:32:40,442 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:33:02,052 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:33:02,052 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:33:02,052 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:33:14,221 - logger_script - INFO - Plotting correlation heatmap.
+2025-02-23 05:33:14,221 - logger_script - INFO - Plotting correlation heatmap.
+2025-02-23 05:33:14,221 - logger_script - INFO - Plotting correlation heatmap.

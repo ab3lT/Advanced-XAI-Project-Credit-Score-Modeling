@@ -71,3 +71,28 @@ class DataVisualizer:
         sns.pairplot(self.data_df, vars=self.numerical_features, hue=self.target_col, palette='husl', plot_kws={'alpha': 0.6})
         plt.suptitle('Pair Plot of Numerical Features by Class', y=1.02)
         plt.show()
+
+    def box_plot(self, data):
+        """
+        Draw a box plot for every column of the data.
+
+        Inputs:
+            - data (DataFrame): a matrix of numerical variables
+
+        Returns:
+            None
+        """
+        COLORS = ["#FF0000", "#00FF00", "#0000FF", "#FFFF00", "#00FFFF", "#FF00FF"]
+        n_cols = data.shape[1]
+        fig_cols = 2
+        fig_rows = n_cols // fig_cols + (n_cols % fig_cols > 0)
+        _, axes = plt.subplots(nrows=fig_rows, ncols=fig_cols, figsize=[20, fig_rows * 4])
+
+        axes = axes.flatten()
+        for i, col_name in enumerate(data.columns):
+            subdata = data[col_name]
+            sns.boxplot(x=subdata, ax=axes[i], color=random.choice(COLORS))
+
+        sns.despine()
+        plt.tight_layout()
+        plt.show()

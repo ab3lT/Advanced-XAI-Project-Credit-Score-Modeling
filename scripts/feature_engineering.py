@@ -25,19 +25,38 @@ class FeatureEngineering:
             self.logging.error("Error in handling missing values: %s", e)
             raise
 
+    # def normalize_numerical_features(self):
+    #     self.logging.info("Normalizing numerical features...")
+    #     try:
+    #         numerical_features = [
+    #             'RevolvingUtilizationOfUnsecuredLines', 'age', 'DebtRatio', 'MonthlyIncome',
+    #             'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate', 'NumberRealEstateLoansOrLines',
+    #             'NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTime60-89DaysPastDueNotWorse', 'NumberOfDependents'
+    #         ]
+            
+    #         # Apply StandardScaler
+    #         self.df[numerical_features] = self.scaler.fit_transform(self.df[numerical_features])
+
+    #         self.logging.info("Numerical features normalized successfully.")
+    #     except Exception as e:
+    #         self.logging.error("Error in normalizing numerical features: %s", e)
+    #         raise
+    from sklearn.preprocessing import MinMaxScaler
+
     def normalize_numerical_features(self):
-        self.logging.info("Normalizing numerical features...")
+        self.logging.info("Normalizing numerical features using MinMaxScaler...")
         try:
             numerical_features = [
                 'RevolvingUtilizationOfUnsecuredLines', 'age', 'DebtRatio', 'MonthlyIncome',
                 'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate', 'NumberRealEstateLoansOrLines',
                 'NumberOfTime30-59DaysPastDueNotWorse', 'NumberOfTime60-89DaysPastDueNotWorse', 'NumberOfDependents'
             ]
-            
-            # Apply StandardScaler
-            self.df[numerical_features] = self.scaler.fit_transform(self.df[numerical_features])
-
-            self.logging.info("Numerical features normalized successfully.")
+    
+            # Use MinMaxScaler to scale values between 0 and 1
+            scaler = MinMaxScaler()
+            self.df[numerical_features] = scaler.fit_transform(self.df[numerical_features])
+    
+            self.logging.info("Numerical features scaled successfully using MinMaxScaler.")
         except Exception as e:
             self.logging.error("Error in normalizing numerical features: %s", e)
             raise

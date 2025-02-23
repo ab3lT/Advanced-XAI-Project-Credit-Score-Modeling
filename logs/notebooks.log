@@ -39,3 +39,35 @@
 2025-02-23 05:33:14,221 - logger_script - INFO - Plotting correlation heatmap.
 2025-02-23 05:33:14,221 - logger_script - INFO - Plotting correlation heatmap.
 2025-02-23 05:33:14,221 - logger_script - INFO - Plotting correlation heatmap.
+2025-02-23 05:41:54,085 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 05:41:55,120 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 05:41:59,441 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 05:42:00,300 - logger_script - INFO - Plotting boxplots for numerical features.
+2025-02-23 05:42:12,923 - logger_script - INFO - Plotting correlation heatmap.
+2025-02-23 05:42:53,964 - logger_script - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-23 05:42:53,965 - logger_script - INFO - Starting the feature engineering pipeline...
+2025-02-23 05:42:53,965 - logger_script - INFO - Handling missing values...
+2025-02-23 05:42:53,999 - logger_script - INFO - Missing values handled successfully.
+2025-02-23 05:42:54,000 - logger_script - INFO - Normalizing numerical features...
+2025-02-23 05:42:54,080 - logger_script - INFO - Numerical features normalized successfully.
+2025-02-23 05:42:54,080 - logger_script - INFO - Creating new features...
+2025-02-23 05:42:54,088 - logger_script - INFO - New features created successfully.
+2025-02-23 05:42:54,106 - logger_script - INFO - Feature engineering pipeline executed successfully.
+2025-02-23 05:42:54,106 - logger_script - INFO - Retrieving processed data...
+2025-02-23 05:42:54,107 - logger_script - INFO - Processed data retrieved successfully.
+2025-02-23 05:45:43,824 - logger_script - INFO - FeatureEngineering class initialized with the provided DataFrame.
+2025-02-23 05:45:43,827 - logger_script - INFO - Starting the feature engineering pipeline...
+2025-02-23 05:45:43,827 - logger_script - INFO - Handling missing values...
+2025-02-23 05:45:43,867 - logger_script - INFO - Missing values handled successfully.
+2025-02-23 05:45:43,867 - logger_script - INFO - Normalizing numerical features...
+2025-02-23 05:45:43,923 - logger_script - INFO - Numerical features normalized successfully.
+2025-02-23 05:45:43,923 - logger_script - INFO - Creating new features...
+2025-02-23 05:45:43,927 - logger_script - INFO - New features created successfully.
+2025-02-23 05:45:43,934 - logger_script - INFO - Feature engineering pipeline executed successfully.
+2025-02-23 05:45:43,934 - logger_script - INFO - Retrieving processed data...
+2025-02-23 05:45:43,934 - logger_script - INFO - Processed data retrieved successfully.
+2025-02-23 16:09:22,542 - logger_script - INFO - Dataset loaded successfully.
+2025-02-23 16:09:23,493 - logger_script - INFO - Plotting histograms for numerical features.
+2025-02-23 16:09:27,604 - logger_script - INFO - Plotting categorical count distributions.
+2025-02-23 16:09:28,255 - logger_script - INFO - Plotting boxplots for numerical features.
+2025-02-23 16:09:36,913 - logger_script - INFO - Plotting correlation heatmap.
